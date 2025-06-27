@@ -4,9 +4,9 @@
 - 🔭 IT-lover
 - 🌱 I’m currently learning UX/UI, Backend with JavaScripts 
 - 👯 I’m looking to collaborate on FullStack projects
-- 🤔 I’m looking for a Frontend/FullStack role
+- 🤔 I’m looking for a Backend/FullStack role
 - 😄 Join me in my learning and career path!
-- ⚡ Languages: Spanish, English, and a bit of German 
+- ⚡ Languages: Vietnamese, English, and a bit of ...
 <br/><br/><br/>
 
 ###
