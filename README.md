@@ -1,5 +1,14 @@
 <h2 align="left">Hi 👋! My name is Hieu and I'm a IT-lover, from Vietnam</h2>
 
+## 💫 About me
+- 🔭 IT-lover
+- 🌱 I’m currently learning UX/UI, Backend with JavaScripts 
+- 👯 I’m looking to collaborate on FullStack projects
+- 🤔 I’m looking for a Frontend/FullStack role
+- 😄 Join me in my learning and career path!
+- ⚡ Languages: Spanish, English, and a bit of German 
+<br/><br/><br/>
+
 ###
 
 <div align="center">
