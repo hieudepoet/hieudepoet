@@ -22,7 +22,8 @@ const hieu = {
     currentFocus: ["UX/UI Design", "Backend Development", "JavaScript"],
     askMeAbout: ["Full Stack Development", "Web Technologies", "Problem Solving"],
     funFact: "I debug with console.log and I'm not ashamed! 😄",
-    languages: ["Vietnamese", "English", "JavaScript 😉"]
+    languages: ["Vietnamese", "English", "JavaScript 😉"],
+    careerWish: "DevOps Engineer or FullStack Developer???"
 };
 ```
 
