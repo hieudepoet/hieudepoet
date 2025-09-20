@@ -23,14 +23,13 @@ const hieu = {
     askMeAbout: ["Full Stack Development", "Web Technologies", "Problem Solving"],
     funFact: "I debug with console.log and I'm not ashamed! 😄",
     languages: ["Vietnamese", "English", "JavaScript 😉"],
-    careerWish: "DevOps Engineer or FullStack Developer???"
 };
 ```
 
 🔭 **Currently Working On:** Full Stack projects with modern JavaScript frameworks  
 🌱 **Learning:** UX/UI Design & Advanced Backend Development  
 👯 **Open to Collaborate:** Full Stack projects and innovative web solutions  
-🎯 **Career Goal:** Securing a Backend/Full Stack Developer position  
+🎯 **Career Goal:** Securing a Backend/Full Stack Developer position or a DevOps Engineer
 💬 **Let's Connect:** Always excited to discuss tech and collaborate!
 
 ---
