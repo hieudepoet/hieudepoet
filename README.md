@@ -27,7 +27,7 @@ const hieu = {
 ```
 
 🔭 **Currently Working On:** Full Stack projects with modern JavaScript frameworks  
-🌱 **Learning:** UX/UI Design & Advanced Backend Development & Web3(Blockchain & Smart Contract with MOVE Language)
+🌱 **Learning:** UX/UI Design & Advanced Backend Development & Web3(Blockchain & Smart Contract with MOVE Language)  
 👯 **Open to Collaborate:** Full Stack projects and innovative web solutions  
 🎯 **Career Goal:** Securing a Full Stack Developer position or a DevOps Engineer
 💬 **Let's Connect:** Always excited to discuss tech and collaborate!
