@@ -27,9 +27,9 @@ const hieu = {
 ```
 
 🔭 **Currently Working On:** Full Stack projects with modern JavaScript frameworks  
-🌱 **Learning:** UX/UI Design & Advanced Backend Development  
+🌱 **Learning:** UX/UI Design & Advanced Backend Development & Web3(Blockchain & Smart Contract with MOVE Language)
 👯 **Open to Collaborate:** Full Stack projects and innovative web solutions  
-🎯 **Career Goal:** Securing a Backend/Full Stack Developer position or a DevOps Engineer
+🎯 **Career Goal:** Securing a Full Stack Developer position or a DevOps Engineer
 💬 **Let's Connect:** Always excited to discuss tech and collaborate!
 
 ---
@@ -58,6 +58,7 @@ const hieu = {
 ### 💻 Programming Languages
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+
 
 ### 🤖 Embedded Programming
 <img src="https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white&style=for-the-badge" alt="arduino logo"  />
