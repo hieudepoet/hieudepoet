@@ -42,8 +42,7 @@ const hieu = {
 
 <div align="center">
 
-### 🌐⛓️ Web3
-<span style="font-size: 60px;">Move Programming Language (SUI)</span>
+### 🌐⛓️ Web3: Move Programming Language (SUI)
 
 ### 🎨 Frontend
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
