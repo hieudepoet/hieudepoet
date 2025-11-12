@@ -42,7 +42,12 @@ const hieu = {
 
 <div align="center">
 
-### 🌐⛓️ Web3: Move Programming Language (SUI)
+### 🌐⛓️ Web3
+<img src="https://img.shields.io/badge/Blockchain-121D33?style=for-the-badge&logo=blockchaindotcom&logoColor=white" alt="Blockchain" />
+<img src="https://img.shields.io/badge/Smart%20Contracts-000000?style=for-the-badge&logo=ethereum&logoColor=white" alt="Smart Contracts" />
+<img src="https://img.shields.io/badge/Move%20Language-6C63FF?style=for-the-badge" alt="Move Language" />
+<img src="https://img.shields.io/badge/Sui%20Blockchain-6C63FF?style=for-the-badge" alt="Sui Blockchain" />
+<img src="https://img.shields.io/badge/Sui%20TypeScript%20SDK-6C63FF?style=for-the-badge" alt="Sui Blockchain" />
 
 ### 🎨 Frontend
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
