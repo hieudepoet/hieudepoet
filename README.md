@@ -93,16 +93,16 @@ const hieu = {
 
 ---
 
-## 📊 GitHub Statistics
+<!-- ## 📊 GitHub Statistics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=hieudepoet&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudepoet&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" alt="Top Languages" />
 </div>
 
-<!-- <div align="center">
+<div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hieudepoet&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div> -->
+</div>
 
 ---
 
@@ -130,7 +130,7 @@ const hieu = {
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hieudepoet/hieudepoet/output/pacman-contribution-graph.svg">
     <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/hieudepoet/hieudepoet/output/pacman-contribution-graph.svg">
   </picture>
-</div>
+</div> -->
 
 ---
 
