@@ -1,13 +1,10 @@
-<!--
-  GitHub Profile README for: hieudepoet
-  Tip: this README works best in a public repository named hieudepoet/hieudepoet
--->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:6C63FF,100:22d3ee&text=Hi,%20I'm%20Viet%20Hieu%20Dinh&fontAlign=50&fontAlignY=38&fontColor=ffffff&fontSize=42&desc=Full%20Stack%20Developer%20%7C%20Web3&Cloud%20Explorer%20%7C%20Builder%20from%20Vietnam&descAlign=50&descAlignY=60&animation=fadeIn" alt="Header" />
+# Hi, I'm Viet Hieu Dinh 👋
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=900&lines=I+build+full-stack+products+that+feel+fast+and+clean;Backend+%2B+Frontend+%2B+Web3+%2B+Move+Language;Turning+ideas+into+usable+software,+one+commit+at+a+time" alt="Typing SVG" />
+### Full Stack Developer · Web3 / Sui / Move Explorer · Builder from Vietnam 🇻🇳
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=850&lines=I+build+full-stack+products+that+feel+fast+and+clean;Backend+%2B+Frontend+%2B+Web3+%2B+Move+Language;Turning+ideas+into+usable+software,+one+commit+at+a+time" alt="Typing SVG" />
 
 <br/>
 
@@ -20,9 +17,9 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" /> About me
+## About me
 
-<img align="right" width="290" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding animation" />
+<img align="right" width="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding animation" />
 
 ```ts
 const hieu = {
@@ -42,7 +39,7 @@ const hieu = {
 
 ---
 
-## 🚀 Tech arsenal
+## Tech arsenal
 
 <div align="center">
 
@@ -53,7 +50,7 @@ const hieu = {
 <img src="https://skillicons.dev/icons?i=nodejs,express,java,postgres,mysql,supabase,firebase" alt="Backend skills" />
 
 ### Cloud, DevOps & Tools
-<img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,githubactions,postman,figma,vscode" alt="Tools" />
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,githubactions,postman,figma,vscode" alt="Cloud, DevOps and tools" />
 
 ### Web3 / Smart Contracts / Embedded
 <img src="https://img.shields.io/badge/Move-6C63FF?style=for-the-badge&logoColor=white" alt="Move" />
@@ -63,118 +60,61 @@ const hieu = {
 
 </div>
 
-
 ---
 
-## 🧠 Language footprint
-
-<!--
-  This section is generated from your public GitHub repositories by
-  .github/workflows/update-profile-assets.yml.
-  It creates a local SVG so the README still works even when public badge/card URLs are rate-limited.
--->
+## Language footprint
 
 <div align="center">
 
 <a href="https://github.com/hieudepoet?tab=repositories">
-  <img src="./assets/language-badges.svg" alt="Language badges generated from Hieu's public GitHub repositories" />
+  <img src="./assets/language-badges.svg" alt="Language badges generated from public GitHub repositories" />
 </a>
-
-<br/><br/>
-
-<a href="https://github.com/hieudepoet?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudepoet&layout=donut-vertical&theme=tokyonight&hide_border=true&langs_count=12&custom_title=Public%20Repo%20Language%20Mix" alt="Top languages from public GitHub repositories" />
-</a>
-
-<br/>
-
-<sub>Language badges are generated locally by GitHub Actions from public repository language bytes. If a public stats service is down or rate-limited, click the broken card area to open the repositories page and rely on the local SVG above.</sub>
 
 </div>
 
 ---
 
-## 📊 GitHub command center
-
-> Public dynamic cards may occasionally fail because shared services can be rate-limited. The clickable card links are intentional fallbacks: when an image does not load, click its area/text to open the source profile or repository page. For maximum reliability, self-host GitHub Readme Stats later and replace `github-readme-stats.vercel.app` with your own domain.
+## GitHub command center
 
 <div align="center">
 
 <a href="https://github.com/hieudepoet">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=hieudepoet&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=Hieu's%20GitHub%20Stats" alt="GitHub stats" />
+  <img src="./assets/github-summary.svg" alt="GitHub summary generated locally by workflow" />
 </a>
+
+<br/><br/>
+
 <a href="https://github.com/hieudepoet?tab=repositories">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudepoet&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&card_width=360" alt="Top languages" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/hieudepoet">
-  <img src="https://streak-stats.demolab.com?user=hieudepoet&theme=tokyonight&hide_border=true&border_radius=12&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/hieudepoet?tab=overview&from=2026-01-01&to=2026-12-31">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hieudepoet&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" />
+  <img src="./assets/featured-projects.svg" alt="Featured public repositories generated locally by workflow" />
 </a>
 
 </div>
 
 ---
 
-## 🏆 Achievements
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=hieudepoet&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=7" alt="GitHub trophies" />
-
-</div>
-
----
-
-## 🧬 Contribution arcade
+## Contribution arcade
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hieudepoet/hieudepoet/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hieudepoet/hieudepoet/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake contribution animation" src="https://raw.githubusercontent.com/hieudepoet/hieudepoet/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./output/github-contribution-grid-snake.svg" />
+  <img alt="Snake contribution animation" src="./output/github-contribution-grid-snake.svg" />
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hieudepoet/hieudepoet/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hieudepoet/hieudepoet/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man contribution animation" src="https://raw.githubusercontent.com/hieudepoet/hieudepoet/output/pacman-contribution-graph.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man contribution animation" src="./output/pacman-contribution-graph.svg" />
 </picture>
 
 </div>
 
 ---
 
-## 🧩 Featured projects
-
-<!-- Replace these pinned cards with your strongest repositories. -->
-
-<div align="center">
-
-<a href="https://github.com/hieudepoet/school-medical-management-system">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hieudepoet&repo=school-medical-management-system&theme=tokyonight&hide_border=true" alt="School Medical Management System" />
-</a>
-<a href="https://github.com/hieudepoet/TapTapTap">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=hieudepoet&repo=TapTapTap&theme=tokyonight&hide_border=true" alt="TapTapTap" />
-</a>
-
-</div>
-
-> Replace the repo names above with your real best projects if these URLs do not exist.
-
----
-
-## 🤝 Connect with me
+## Connect with me
 
 <div align="center">
 
