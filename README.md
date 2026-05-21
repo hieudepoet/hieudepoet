@@ -2,7 +2,7 @@
 
 # Hi, I'm Viet Hieu Dinh 👋
 
-### Full Stack Developer · Web3 / Sui / Move Explorer · Builder from Vietnam 🇻🇳
+### Full Stack Developer · Sui Web3 / AWS / GCP Explorer · Builder from Vietnam 🇻🇳
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=850&lines=I+build+full-stack+products+that+feel+fast+and+clean;Backend+%2B+Frontend+%2B+Web3+%2B+Move+Language;Turning+ideas+into+usable+software,+one+commit+at+a+time" alt="Typing SVG" />
 
