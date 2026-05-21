@@ -63,22 +63,61 @@ const hieu = {
 
 </div>
 
+
+---
+
+## 🧠 Language footprint
+
+<!--
+  This section is generated from your public GitHub repositories by
+  .github/workflows/update-profile-assets.yml.
+  It creates a local SVG so the README still works even when public badge/card URLs are rate-limited.
+-->
+
+<div align="center">
+
+<a href="https://github.com/hieudepoet?tab=repositories">
+  <img src="./assets/language-badges.svg" alt="Language badges generated from Hieu's public GitHub repositories" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/hieudepoet?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudepoet&layout=donut-vertical&theme=tokyonight&hide_border=true&langs_count=12&custom_title=Public%20Repo%20Language%20Mix" alt="Top languages from public GitHub repositories" />
+</a>
+
+<br/>
+
+<sub>Language badges are generated locally by GitHub Actions from public repository language bytes. If a public stats service is down or rate-limited, click the broken card area to open the repositories page and rely on the local SVG above.</sub>
+
+</div>
+
 ---
 
 ## 📊 GitHub command center
 
+> Public dynamic cards may occasionally fail because shared services can be rate-limited. The clickable card links are intentional fallbacks: when an image does not load, click its area/text to open the source profile or repository page. For maximum reliability, self-host GitHub Readme Stats later and replace `github-readme-stats.vercel.app` with your own domain.
+
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=hieudepoet&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=Hieu's%20GitHub%20Stats" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudepoet&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&card_width=360" alt="Top languages" />
+<a href="https://github.com/hieudepoet">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=hieudepoet&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=Hieu's%20GitHub%20Stats" alt="GitHub stats" />
+</a>
+<a href="https://github.com/hieudepoet?tab=repositories">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudepoet&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&card_width=360" alt="Top languages" />
+</a>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=hieudepoet&theme=tokyonight&hide_border=true&border_radius=12&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak" />
+<a href="https://github.com/hieudepoet">
+  <img src="https://streak-stats.demolab.com?user=hieudepoet&theme=tokyonight&hide_border=true&border_radius=12&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub streak" />
+</a>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hieudepoet&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" />
+<a href="https://github.com/hieudepoet?tab=overview&from=2026-01-01&to=2026-12-31">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hieudepoet&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Activity%20Graph" alt="Contribution activity graph" />
+</a>
 
 </div>
 
