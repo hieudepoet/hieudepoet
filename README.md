@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:6C63FF,100:22d3ee&text=Hi,%20I'm%20Hieu%20Đinh%20Việt&fontAlign=50&fontAlignY=38&fontColor=ffffff&fontSize=42&desc=Full%20Stack%20Developer%20%7C%20Web3%20Explorer%20%7C%20Builder%20from%20Vietnam&descAlign=50&descAlignY=60&animation=fadeIn" alt="Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:6C63FF,100:22d3ee&text=Hi,%20I'm%20Viet%20Hieu%20Dinh&fontAlign=50&fontAlignY=38&fontColor=ffffff&fontSize=42&desc=Full%20Stack%20Developer%20%7C%20Web3&Cloud%20Explorer%20%7C%20Builder%20from%20Vietnam&descAlign=50&descAlignY=60&animation=fadeIn" alt="Header" />
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2600&pause=900&color=22D3EE&center=true&vCenter=true&width=900&lines=I+build+full-stack+products+that+feel+fast+and+clean;Backend+%2B+Frontend+%2B+Web3+%2B+Move+Language;Turning+ideas+into+usable+software,+one+commit+at+a+time" alt="Typing SVG" />
 
