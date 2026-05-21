@@ -1,0 +1,113 @@
+name: Update profile language assets
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-profile-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-language-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate local language badges SVG from GitHub public repos
+        uses: actions/github-script@v7
+        env:
+          USERNAME: hieudepoet
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            const username = process.env.USERNAME;
+            const colors = {
+              JavaScript: '#f1e05a', TypeScript: '#3178c6', HTML: '#e34c26', CSS: '#563d7c',
+              Java: '#b07219', 'C++': '#f34b7d', C: '#555555', Python: '#3572A5',
+              Shell: '#89e051', Dockerfile: '#384d54', Move: '#6C63FF', Solidity: '#AA6746',
+              Vue: '#41b883', SCSS: '#c6538c', PHP: '#4F5D95', Ruby: '#701516', Go: '#00ADD8',
+              Rust: '#dea584', Kotlin: '#A97BFF', Dart: '#00B4AB'
+            };
+
+            function esc(value) {
+              return String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+            }
+
+            function badge(label, percent, color, x, y) {
+              const text = `${label} ${percent}%`;
+              const labelWidth = Math.max(72, label.length * 8 + 18);
+              const valueWidth = Math.max(46, String(percent).length * 8 + 28);
+              const width = labelWidth + valueWidth;
+              return {
+                width,
+                svg: `\n  <g transform="translate(${x},${y})">\n    <rect width="${width}" height="28" rx="7" fill="#111827"/>\n    <rect x="${labelWidth}" width="${valueWidth}" height="28" rx="7" fill="${color}"/>\n    <path d="M${labelWidth},0 h8 v28 h-8 z" fill="${color}"/>\n    <text x="${labelWidth / 2}" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">${esc(label)}</text>\n    <text x="${labelWidth + valueWidth / 2}" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">${percent}%</text>\n  </g>`
+              };
+            }
+
+            let repos = [];
+            for await (const page of github.paginate.iterator(github.rest.repos.listForUser, {
+              username,
+              per_page: 100,
+              type: 'owner',
+              sort: 'updated'
+            })) {
+              repos.push(...page.data.filter(repo => !repo.fork && !repo.archived));
+            }
+
+            const totals = {};
+            for (const repo of repos) {
+              try {
+                const { data } = await github.rest.repos.listLanguages({ owner: username, repo: repo.name });
+                for (const [lang, bytes] of Object.entries(data)) totals[lang] = (totals[lang] || 0) + bytes;
+              } catch (error) {
+                core.warning(`Cannot fetch languages for ${repo.name}: ${error.message}`);
+              }
+            }
+
+            const totalBytes = Object.values(totals).reduce((a, b) => a + b, 0);
+            let rows = Object.entries(totals)
+              .map(([lang, bytes]) => ({ lang, bytes, percent: totalBytes ? +(bytes / totalBytes * 100).toFixed(1) : 0 }))
+              .sort((a, b) => b.bytes - a.bytes)
+              .slice(0, 10);
+
+            if (!rows.length) {
+              rows = [{ lang: 'No public language data', bytes: 1, percent: 100 }];
+            }
+
+            const maxWidth = 900;
+            let x = 20, y = 54, lineHeight = 40;
+            const parts = [];
+            for (const row of rows) {
+              const b = badge(row.lang, row.percent, colors[row.lang] || '#6C63FF', x, y);
+              if (x + b.width > maxWidth - 20) {
+                x = 20;
+                y += lineHeight;
+                const b2 = badge(row.lang, row.percent, colors[row.lang] || '#6C63FF', x, y);
+                parts.push(b2.svg);
+                x += b2.width + 12;
+              } else {
+                parts.push(b.svg);
+                x += b.width + 12;
+              }
+            }
+            const height = y + 52;
+
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${maxWidth}" height="${height}" viewBox="0 0 ${maxWidth} ${height}" role="img" aria-label="GitHub language badges for ${username}">\n  <defs>\n    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">\n      <stop offset="0%" stop-color="#0f172a"/>\n      <stop offset="50%" stop-color="#1e1b4b"/>\n      <stop offset="100%" stop-color="#083344"/>\n    </linearGradient>\n  </defs>\n  <rect width="100%" height="100%" rx="18" fill="url(#bg)"/>\n  <text x="20" y="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#e0f2fe">Language badges from public GitHub repos</text>${parts.join('')}\n  <text x="20" y="${height - 16}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" fill="#94a3b8">Generated by GitHub Actions from repository language bytes. Public repos only.</text>\n</svg>`;
+
+            fs.mkdirSync('assets', { recursive: true });
+            fs.writeFileSync(path.join('assets', 'language-badges.svg'), svg);
+
+      - name: Commit updated generated assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(profile): update language badges"
+          file_pattern: assets/language-badges.svg
