@@ -1,0 +1,6 @@
+<svg width="800" height="220" viewBox="0 0 800 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contribution arcade fallback">
+<rect width="800" height="220" rx="22" fill="#020617"/>
+<text x="400" y="94" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="800" text-anchor="middle" fill="#ffffff">Contribution arcade</text>
+<text x="400" y="126" font-family="Inter, Segoe UI, Arial" font-size="15" text-anchor="middle" fill="#94a3b8">Animation is being generated. This local fallback prevents broken fetch-error cards.</text>
+<text x="400" y="156" font-family="Inter, Segoe UI, Arial" font-size="13" text-anchor="middle" fill="#22d3ee">Run the workflow again if you want to refresh the animation.</text>
+</svg>

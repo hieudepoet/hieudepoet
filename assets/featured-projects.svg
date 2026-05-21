@@ -1,0 +1,30 @@
+<svg width="800" height="340" viewBox="0 0 800 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured public repositories">
+<rect width="800" height="340" rx="22" fill="#020617"/>
+<text x="28" y="42" font-family="Inter, Segoe UI, Arial" font-size="24" font-weight="800" fill="#ffffff">Featured public repositories</text>
+<text x="28" y="64" font-family="Inter, Segoe UI, Arial" font-size="13" fill="#94a3b8">Sorted by stars, forks, and recent activity.</text>
+
+    <g transform="translate(28,76)">
+      <rect width="744" height="46" rx="14" fill="#0f172a" stroke="#1e293b"/>
+      <text x="16" y="20" font-family="Inter, Segoe UI, Arial" font-size="15" font-weight="800" fill="#ffffff">APT-Magic</text>
+      <text x="16" y="36" font-family="Inter, Segoe UI, Arial" font-size="11" fill="#94a3b8">[In progress] APT Magic is a powerful web platform with an ultra-cold theme design</text>
+      <text x="720" y="28" font-family="Inter, Segoe UI, Arial" font-size="12" text-anchor="end" fill="#22d3ee">★ 2 · Fork 0</text>
+    </g>
+    <g transform="translate(28,134)">
+      <rect width="744" height="46" rx="14" fill="#0f172a" stroke="#1e293b"/>
+      <text x="16" y="20" font-family="Inter, Segoe UI, Arial" font-size="15" font-weight="800" fill="#ffffff">hieudepoet</text>
+      <text x="16" y="36" font-family="Inter, Segoe UI, Arial" font-size="11" fill="#94a3b8">My personal repository</text>
+      <text x="720" y="28" font-family="Inter, Segoe UI, Arial" font-size="12" text-anchor="end" fill="#22d3ee">★ 1 · Fork 0</text>
+    </g>
+    <g transform="translate(28,192)">
+      <rect width="744" height="46" rx="14" fill="#0f172a" stroke="#1e293b"/>
+      <text x="16" y="20" font-family="Inter, Segoe UI, Arial" font-size="15" font-weight="800" fill="#ffffff">BikeStoreManagementSystem</text>
+      <text x="16" y="36" font-family="Inter, Segoe UI, Arial" font-size="11" fill="#94a3b8">ABC Company want to develop a Java console application to perform CRUD operations </text>
+      <text x="720" y="28" font-family="Inter, Segoe UI, Arial" font-size="12" text-anchor="end" fill="#22d3ee">★ 1 · Fork 0</text>
+    </g>
+    <g transform="translate(28,250)">
+      <rect width="744" height="46" rx="14" fill="#0f172a" stroke="#1e293b"/>
+      <text x="16" y="20" font-family="Inter, Segoe UI, Arial" font-size="15" font-weight="800" fill="#ffffff">hieudepoet-tech-blog</text>
+      <text x="16" y="36" font-family="Inter, Segoe UI, Arial" font-size="11" fill="#94a3b8">[In progress] This is my personal blog about Infomation Technology, where I share </text>
+      <text x="720" y="28" font-family="Inter, Segoe UI, Arial" font-size="12" text-anchor="end" fill="#22d3ee">★ 1 · Fork 0</text>
+    </g>
+</svg>

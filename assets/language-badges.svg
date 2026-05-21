@@ -1,82 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="146" viewBox="0 0 900 146" role="img" aria-label="GitHub language badges for hieudepoet">
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="50%" stop-color="#1e1b4b"/>
-      <stop offset="100%" stop-color="#083344"/>
-    </linearGradient>
-  </defs>
-  <rect width="100%" height="100%" rx="18" fill="url(#bg)"/>
-  <text x="20" y="32" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" fill="#e0f2fe">Language badges from public GitHub repos</text>
-  <g transform="translate(20,54)">
-    <rect width="158" height="28" rx="7" fill="#111827"/>
-    <rect x="98" width="60" height="28" rx="7" fill="#3178c6"/>
-    <path d="M98,0 h8 v28 h-8 z" fill="#3178c6"/>
-    <text x="49" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">TypeScript</text>
-    <text x="128" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">44.6%</text>
-  </g>
-  <g transform="translate(190,54)">
-    <rect width="132" height="28" rx="7" fill="#111827"/>
-    <rect x="72" width="60" height="28" rx="7" fill="#6C63FF"/>
-    <path d="M72,0 h8 v28 h-8 z" fill="#6C63FF"/>
-    <text x="36" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Move</text>
-    <text x="102" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">21.9%</text>
-  </g>
-  <g transform="translate(334,54)">
-    <rect width="132" height="28" rx="7" fill="#111827"/>
-    <rect x="72" width="60" height="28" rx="7" fill="#563d7c"/>
-    <path d="M72,0 h8 v28 h-8 z" fill="#563d7c"/>
-    <text x="36" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">CSS</text>
-    <text x="102" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">14.1%</text>
-  </g>
-  <g transform="translate(478,54)">
-    <rect width="118" height="28" rx="7" fill="#111827"/>
-    <rect x="72" width="46" height="28" rx="7" fill="#b07219"/>
-    <path d="M72,0 h8 v28 h-8 z" fill="#b07219"/>
-    <text x="36" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Java</text>
-    <text x="95" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">13%</text>
-  </g>
-  <g transform="translate(608,54)">
-    <rect width="150" height="28" rx="7" fill="#111827"/>
-    <rect x="98" width="52" height="28" rx="7" fill="#f1e05a"/>
-    <path d="M98,0 h8 v28 h-8 z" fill="#f1e05a"/>
-    <text x="49" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">JavaScript</text>
-    <text x="124" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">2.6%</text>
-  </g>
-  <g transform="translate(20,94)">
-    <rect width="124" height="28" rx="7" fill="#111827"/>
-    <rect x="72" width="52" height="28" rx="7" fill="#6C63FF"/>
-    <path d="M72,0 h8 v28 h-8 z" fill="#6C63FF"/>
-    <text x="36" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">EJS</text>
-    <text x="98" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">1.9%</text>
-  </g>
-  <g transform="translate(156,94)">
-    <rect width="124" height="28" rx="7" fill="#111827"/>
-    <rect x="72" width="52" height="28" rx="7" fill="#e34c26"/>
-    <path d="M72,0 h8 v28 h-8 z" fill="#e34c26"/>
-    <text x="36" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">HTML</text>
-    <text x="98" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">1.7%</text>
-  </g>
-  <g transform="translate(292,94)">
-    <rect width="124" height="28" rx="7" fill="#111827"/>
-    <rect x="72" width="52" height="28" rx="7" fill="#f34b7d"/>
-    <path d="M72,0 h8 v28 h-8 z" fill="#f34b7d"/>
-    <text x="36" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">C++</text>
-    <text x="98" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">0.2%</text>
-  </g>
-  <g transform="translate(428,94)">
-    <rect width="150" height="28" rx="7" fill="#111827"/>
-    <rect x="98" width="52" height="28" rx="7" fill="#6C63FF"/>
-    <path d="M98,0 h8 v28 h-8 z" fill="#6C63FF"/>
-    <text x="49" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">Handlebars</text>
-    <text x="124" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">0.1%</text>
-  </g>
-  <g transform="translate(590,94)">
-    <rect width="144" height="28" rx="7" fill="#111827"/>
-    <rect x="98" width="46" height="28" rx="7" fill="#6C63FF"/>
-    <path d="M98,0 h8 v28 h-8 z" fill="#6C63FF"/>
-    <text x="49" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#f8fafc">PowerShell</text>
-    <text x="121" y="18" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" fill="#ffffff">0%</text>
-  </g>
-  <text x="20" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" fill="#94a3b8">Generated by GitHub Actions from repository language bytes. Public repos only.</text>
+<svg width="800" height="430" viewBox="0 0 800 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language footprint">
+<rect width="800" height="430" rx="22" fill="#020617"/>
+<text x="28" y="38" font-family="Inter, Segoe UI, Arial" font-size="22" font-weight="800" fill="#ffffff">Language footprint</text>
+<text x="772" y="38" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="600" text-anchor="end" fill="#94a3b8">Generated from public repos</text>
+<g transform="translate(20,62)">
+<g transform="translate(0,0)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="339.0" height="28" rx="14" fill="#3178c6"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">TypeScript</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">44.6%</text></g><g transform="translate(0,36)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="166.2" height="28" rx="14" fill="#6C63FF"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">Move</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">21.9%</text></g><g transform="translate(0,72)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="107.3" height="28" rx="14" fill="#663399"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">CSS</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">14.1%</text></g><g transform="translate(0,108)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="98.4" height="28" rx="14" fill="#b07219"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">Java</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">13.0%</text></g><g transform="translate(0,144)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="19.7" height="28" rx="14" fill="#f7df1e"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#111827">JavaScript</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">2.6%</text></g><g transform="translate(0,180)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="14.3" height="28" rx="14" fill="#6C63FF"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">EJS</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">1.9%</text></g><g transform="translate(0,216)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="13.0" height="28" rx="14" fill="#e34c26"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">HTML</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">1.7%</text></g><g transform="translate(0,252)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="12.0" height="28" rx="14" fill="#00599c"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">C++</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">0.2%</text></g><g transform="translate(0,288)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="12.0" height="28" rx="14" fill="#6C63FF"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">Handlebars</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">0.1%</text></g><g transform="translate(0,324)"><rect width="760" height="28" rx="14" fill="#0f172a"/><rect width="12.0" height="28" rx="14" fill="#6C63FF"/><text x="18" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" fill="#ffffff">PowerShell</text><text x="742" y="19" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="end" fill="#e5e7eb">0.0%</text></g>
+</g>
 </svg>
