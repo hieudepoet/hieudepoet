@@ -10,7 +10,7 @@
     </g>
     <g transform="translate(215,82)">
       <rect width="160" height="88" rx="18" fill="#0f172a" stroke="#1e293b"/>
-      <text x="80" y="36" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="800" text-anchor="middle" fill="#22d3ee">16</text>
+      <text x="80" y="36" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="800" text-anchor="middle" fill="#22d3ee">15</text>
       <text x="80" y="62" font-family="Inter, Segoe UI, Arial" font-size="13" font-weight="700" text-anchor="middle" fill="#cbd5e1">Followers</text>
     </g>
     <g transform="translate(400,82)">
