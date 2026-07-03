@@ -22,7 +22,7 @@ jobs:
 
       - run: npm install @octokit/graphql
 
-      - run: node scripts/generate-streak.js
+      - run: node generate-streak.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: hieudepoet
