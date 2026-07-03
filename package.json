@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@octokit/graphql": "^8.0.0"
+  }
+}
