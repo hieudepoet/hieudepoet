@@ -18,6 +18,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Generate safe local SVG assets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -219,6 +224,12 @@ jobs:
               if not path.exists() or path.stat().st_size == 0:
                   write(path, fallback)
           PY
+
+      - name: Generate GitHub streak asset
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: hieudepoet
+        run: node generate-streak.js
 
       - name: Try to generate snake animation
         continue-on-error: true

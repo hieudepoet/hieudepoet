@@ -20,8 +20,6 @@ jobs:
         with:
           node-version: 22
 
-      - run: npm install @octokit/graphql
-
       - run: node generate-streak.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

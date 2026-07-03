@@ -1,42 +1,56 @@
 const fs = require("fs");
-const { graphql } = require("@octokit/graphql");
 
 const token = process.env.GITHUB_TOKEN;
 const username = process.env.USERNAME;
 
 (async () => {
 
-const client = graphql.defaults({
-headers:{
-authorization:`token ${token}`
-}
-});
+if(!token) throw new Error("GITHUB_TOKEN is required");
+if(!username) throw new Error("USERNAME is required");
 
-const data = await client(`
+const query = `
 query($login:String!){
 user(login:$login){
-
 contributionsCollection{
-
 contributionCalendar{
-
 weeks{
-
 contributionDays{
-
 date
-
 contributionCount
+}
+}
+}
+}
+}
+}
+`;
 
-}
-}
-}
-}
-}
-}
-`,{
+const response = await fetch("https://api.github.com/graphql",{
+method:"POST",
+headers:{
+"Content-Type":"application/json",
+Authorization:`bearer ${token}`,
+"User-Agent":"hieudepoet-streak-generator"
+},
+body:JSON.stringify({
+query,
+variables:{
 login:username
+}
+})
 });
+
+if(!response.ok){
+throw new Error(`GitHub GraphQL request failed: ${response.status} ${response.statusText}`);
+}
+
+const payload = await response.json();
+
+if(payload.errors?.length){
+throw new Error(payload.errors.map(e=>e.message).join("; "));
+}
+
+const data = payload.data;
 
 const days =
 data.user.contributionsCollection
