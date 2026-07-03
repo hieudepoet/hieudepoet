@@ -65,7 +65,11 @@ const hieu = {
 
 <div align="center">
 
-<img src="./assets/github-streak.svg" width="600" alt="GitHub Streak"/>
+<img
+  src="https://streak-stats.demolab.com?user=hieudepoet&theme=dark&hide_border=true&border_radius=12&card_width=520&card_height=200&background=020617&stroke=1e293b&ring=22d3ee&fire=f59e0b&currStreakNum=ffffff&sideNums=e2e8f0&currStreakLabel=94a3b8&sideLabels=94a3b8&dates=64748b&date_format=M%20j%5B%2C%20Y%5D&short_numbers=true&disable_animations=true"
+  width="600"
+  alt="GitHub Streak"
+/>
 
 </div>
 
