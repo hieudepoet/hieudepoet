@@ -61,6 +61,13 @@ const hieu = {
 </div>
 
 ---
+## 🔥 GitHub Streak
+
+<div align="center">
+
+<img src="./assets/github-streak.svg" width="600" alt="GitHub Streak"/>
+
+</div>
 
 ## Language footprint
 
