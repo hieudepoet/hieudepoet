@@ -1,0 +1,32 @@
+name: Update GitHub Streak
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm install @octokit/graphql
+
+      - run: node scripts/generate-streak.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: hieudepoet
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "update github streak"
