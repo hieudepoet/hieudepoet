@@ -55,7 +55,6 @@ const hieu = {
 ### Web3 / Smart Contracts / Embedded
 <img src="https://img.shields.io/badge/Move-6C63FF?style=for-the-badge&logoColor=white" alt="Move" />
 <img src="https://img.shields.io/badge/Sui-4DA2FF?style=for-the-badge&logo=sui&logoColor=white" alt="Sui" />
-<img src="https://img.shields.io/badge/Smart%20Contracts-111827?style=for-the-badge&logo=ethereum&logoColor=white" alt="Smart Contracts" />
 <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
 
 </div>
