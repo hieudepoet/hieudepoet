@@ -25,7 +25,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # PROFILE_TOKEN (optional) = read-only PAT, lets stats include private repos.
+      # PROFILE_TOKEN (optional) = read-only PAT, used only for language stats of private repos.
       - name: Generate stat cards
         env:
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
@@ -37,7 +37,7 @@ jobs:
         continue-on-error: true
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
-          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # default token keeps org contributions in the count
           USERNAME: hieudepoet
 
       - name: Generate snake animation

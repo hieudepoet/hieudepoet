@@ -44,10 +44,16 @@ def api_json(url, fallback):
 
 def graphql(query, variables):
     body = json.dumps({"query": query, "variables": variables}).encode("utf-8")
+    # Contribution counts use the workflow GITHUB_TOKEN on purpose: a
+    # fine-grained PAT drops contributions to orgs it cannot read, while the
+    # default token still counts them as private (restricted) contributions.
+    headers = {**HEADERS, "Content-Type": "application/json"}
+    if os.getenv("GITHUB_TOKEN"):
+        headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
     req = urllib.request.Request(
         "https://api.github.com/graphql",
         data=body,
-        headers={**HEADERS, "Content-Type": "application/json"},
+        headers=headers,
         method="POST",
     )
     try:
