@@ -240,6 +240,21 @@ jobs:
             output/github-contribution-grid-snake.svg
             output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Try to generate Pac-Man animation
+        id: pacman
+        continue-on-error: true
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: hieudepoet
+
+      - name: Move Pac-Man SVGs into output/
+        if: steps.pacman.outcome == 'success'
+        run: |
+          ls -la dist || true
+          for f in pacman-contribution-graph.svg pacman-contribution-graph-dark.svg; do
+            if [ -s "dist/$f" ]; then cp "dist/$f" "output/$f"; else echo "::warning::dist/$f not found"; fi
+          done
+
       - name: Commit generated assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
