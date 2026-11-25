@@ -89,13 +89,13 @@ const hieu = {
 <div align="center">
 
 <a href="https://github.com/hieudepoet">
-  <img src="./assets/github-summary.svg" alt="GitHub summary generated locally by workflow" />
+  <img src="./assets/github-summary.svg" alt="GitHub activity in the last 12 months" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/hieudepoet?tab=repositories">
-  <img src="./assets/featured-projects.svg" alt="Featured public repositories generated locally by workflow" />
+  <img src="./assets/featured-projects.svg" alt="Featured pinned projects" />
 </a>
 
 </div>
@@ -107,17 +107,17 @@ const hieu = {
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./output/github-contribution-grid-snake.svg" />
-  <img alt="Snake contribution animation" src="./output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="3D contribution calendar: taller bars mean more contributions that day" src="./profile-3d-contrib/profile-night-rainbow.svg" />
 </picture>
 
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man contribution animation" src="./output/pacman-contribution-graph.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./output/github-contribution-grid-snake.svg" />
+  <img alt="Snake eating the contribution grid" src="./output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
